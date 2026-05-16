@@ -1,69 +1,57 @@
 ---
-name: Hardware Issue
-about: Report a hardware-related problem
-title: '[HARDWARE] '
-labels: hardware
+name: Feature Request
+about: Suggest a new feature or improvement
+title: '[FEATURE] '
+labels: enhancement
 assignees: ''
 ---
 
-## Issue Description
+## Feature Description
 
-<!-- Describe the hardware issue -->
+<!-- A clear description of the feature you'd like -->
 
-## Board Information
+## Motivation
 
-- **Board Type**: <!-- IMU Board / C Board -->
-- **Affected Component**: <!-- IMU sensor, CAN transceiver, etc. -->
+<!-- Why is this feature needed? What problem does it solve? -->
 
-## Symptoms
+## Board(s) Affected
 
-<!-- What behavior are you observing? -->
+- [ ] IMU Board
+- [ ] C Board
+- [ ] Both boards
 
-### Error Indicators
-- [ ] Board not responding
-- [ ] CAN communication loss
-- [ ] Sensor data incorrect
-- [ ] Power issues
-- [ ] Physical damage
+## Proposed Implementation
+
+<!-- If you have ideas on how to implement this, describe them here -->
+
+### Affected Components
+- [ ] IMU Driver
+- [ ] CAN Communication
+- [ ] Remote Control
+- [ ] Configuration
+- [ ] Build System
+- [ ] Documentation
 - [ ] Other:
 
-## Diagnostic Information
+### Technical Considerations
 
-### Device Detection Status
-<!-- Which devices are showing errors? -->
-- [ ] IMU Sensor
-- [ ] CAN Bus
-- [ ] LED Indicators
-- [ ] Other:
+<!-- Any technical constraints or considerations? -->
+- Real-time requirements:
+- Memory constraints:
+- Hardware dependencies:
 
-### Measurements
-<!-- If you took any measurements, include them here -->
-- Voltage readings:
-- Current readings:
-- Oscilloscope captures:
+## Alternatives Considered
 
-## Environment
-
-- **Power Source**: <!-- Voltage supply -->
-- **Connections**: <!-- Any loose connections observed? -->
-- **Temperature**: <!-- Any overheating? -->
-
-## Steps Taken
-
-<!-- What have you already tried? -->
-
-1.
-2.
-3.
-
-## Photos/Videos
-
-<!-- Include photos of the hardware setup, damaged components, or videos of the behavior -->
-
-## Suspected Cause
-
-<!-- If you have ideas about the root cause -->
+<!-- Have you considered any alternative approaches? -->
 
 ## Additional Context
 
-<!-- Any other relevant information -->
+<!-- Any other context, diagrams, or references -->
+
+## Priority
+
+<!-- How urgent is this feature? -->
+- [ ] Critical (blocking competition)
+- [ ] High (needed soon)
+- [ ] Medium (nice to have)
+- [ ] Low (future improvement)
